@@ -6,4 +6,3 @@ jobs:
     steps:
       - run: echo "test1"
       - run: npm -v
-      - run: node -v
