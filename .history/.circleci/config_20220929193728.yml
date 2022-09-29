@@ -5,5 +5,5 @@ jobs:
       - image: circleci/node:10
     steps:
       - run: echo "test1"
-      - run: echo "----------123456----------" >>      README.md
+      - run: echo "# This is a direct change to README.md" >>      README.md
       - run: npm -v
