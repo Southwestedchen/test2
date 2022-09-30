@@ -1,3 +1,4 @@
+version: 2
 jobs:
   build:
     docker:
@@ -6,5 +7,3 @@ jobs:
       - run: echo "test1"
       - run: npm -v
       - run: node -v
-
-version: 2
